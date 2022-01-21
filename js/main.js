@@ -4,7 +4,7 @@
 
 (() => {
   //make associations (select) with elements in the HTML markup using CSS selectors
-  let theHeading = document.querySelector(".main-heading");
+  let ///theHeading = document.querySelector(".main-heading");
       theIcons = document.querySelectorAll(".icon");
 
   // debugger; //this is like a breakpoint / pause point in your code
