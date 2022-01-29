@@ -1,0 +1,57 @@
+<svg id="treeRound" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 199.78 213.3">
+  <defs>
+    <style>
+      #treeRound:hover {cursor: pointer; }
+      #treeRound:hover {transform: scale(0.8); }
+
+      .cls-1 {
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+      }
+
+      .cls-1 {
+        fill: #ABDADF;
+	      animation-name: glow-green;
+	      animation-delay: .5s;
+	      animation-duration: 1.25s;
+      }
+
+      @keyframes glow-green {
+	      0% { fill: #ABDADF; }
+	      100% { fill: #CDEBD2; }
+      }
+
+      .cls-1 {
+        transform-origin: center;
+        transition: all 0.5s ease;
+      }
+      .cls-1{fill:#cdebd2;}
+
+      .cls-2{
+        fill:none;
+        stroke:#000;
+        stroke-linecap:round;
+        stroke-linejoin:round;
+        stroke-width:15px;
+      }
+    </style>
+    <script>
+      let theTreeRound = document.querySelector("#treeRound");
+
+      function logMyId() {
+        console.log("clicked on the object tag:", this.id);
+      }
+
+      theTreeRound.addEventListener("click", logMyId);
+    </script>
+  </defs>
+
+  <path id="color" class="cls-1" d="M37,101.71c-1.34,19-.58,58.42,65.37,54.81s83.06-40.68,81.26-65.08-34.28-49.65-62.29-31.59-40.65,2.71-56,6.33S37.62,93.3,37,101.71Z" transform="translate(-7.47 -0.9)"/>
+
+  <path id="crown" class="cls-2" d="M38.28,148.26S15,143.14,15,109,55.91,60.7,55.91,60.7,58.75,8.4,104.8,8.4s46.63,38.42,46.63,38.42,12.86-.85,21.1,9.66C181.58,68,174.8,84,174.8,84s24.95,2.56,24.95,36.37c0,25-29.28,29.28-29.28,29.28S41.3,148.26,38.28,148.26Z" transform="translate(-7.47 -0.9)"/>
+
+  <polygon id="trunk" points="92.39 195.99 74.43 213.3 119.48 213.3 103.72 196.16 103.23 105.44 126.69 81.13 119.66 74.26 103.23 91.29 102.56 48.51 92.74 48.51 92.74 71.14 74.82 59.48 70.39 67.86 92.24 82.63 92.33 117.35 56.12 98.78 52.16 107.6 92.39 127.8 92.39 195.99"/>
+
+</svg>

@@ -1,0 +1,58 @@
+<svg id="bird" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 213.6 210.85">
+    <defs>
+      <style>
+
+        #bird:hover {cursor: pointer; }
+        #bird:hover {transform: scale(0.8); }
+
+        .cls-1 {
+          animation-duration: 1s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in-out;
+          animation-direction: alternate;
+        }
+
+        .cls-1 {
+          fill: #cdebd2;
+          animation-name: glow-red;
+          animation-delay: .5s;
+          animation-duration: 1.25s;
+        }
+
+        @keyframes glow-red {
+          0% { fill: #cdebd2; }
+          100% { fill: #EECBB9; }
+        }
+
+        .cls-1 {
+          transform-origin: center;
+          transition: all 0.5s ease;
+        }
+
+        .cls-1{fill:#abdadf;}
+
+        .cls-2{
+          fill:none;
+          stroke:#000;
+          stroke-linecap:round;
+          stroke-linejoin:round;
+          stroke-width:15px;
+        }
+
+      </style>
+      <script>
+        let theBird = document.querySelector("#bird");
+
+        function logMyId() {
+          console.log("clicked on the object tag:", this.id);
+        }
+
+        theBird.addEventListener("click", logMyId);
+      </script>
+    </defs>
+
+    <path id="color" class="cls-1" d="M211.37,119.86c-6.15,27.57-20.07,61.73-69.11,48.32-33.7-9.22-65.33,51-104.93-2.8C19.43,141,49.63,35,126.27,41.07,183.83,45.62,227.2,48.91,211.37,119.86Z" transform="translate(-1.06 -1.88)"/>
+
+    <path id="bird-2" data-name="bird" class="cls-2" d="M154.44,16l14.79-6.58-6.09,15.24s-16,21.91,1.94,65.76S121,192.82,53.45,162.6c0,0,65.16-8.9,67.37-48.16h0s1.66,39.4-67.37,48.16L20,184.88,8.56,173.51s41.61-24,53.79-44.13S96,68.05,98.9,42.48C101.81,17.22,119.49,10,154.44,16Zm-50,189.28,35.86-14.49V159m0,31.72,19.31,7.59" transform="translate(-1.06 -1.88)"/>
+
+  </svg>

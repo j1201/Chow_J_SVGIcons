@@ -1,0 +1,57 @@
+<svg id="storm" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 149.44 203.95">
+  <defs>
+    <style>
+      #storm:hover {cursor: pointer; }
+      #storm:hover {transform: scale(0.8); }
+
+      .cls-1 {
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+      }
+
+      .cls-1 {
+        fill: #EECBB9;
+        animation-name: glow-blue;
+        animation-delay: .5s;
+        animation-duration: 1.25s;
+      }
+
+      @keyframes glow-blue {
+        0% { fill: #EECBB9; }
+        100% { fill: #ABDADF; }
+      }
+
+      .cls-1 {
+        transform-origin: center;
+        transition: all 0.5s ease;
+      }
+
+      .cls-1{fill:#eecbb9;}
+
+      .cls-2{
+        fill:none;
+        stroke:#000;
+        stroke-linecap:round;
+        stroke-linejoin:round;
+        stroke-width:11px;
+      }
+    </style>
+    <script>
+      let theStorm = document.querySelector("#storm");
+
+      function logMyId() {
+        console.log("clicked on the object tag:", this.id);
+      }
+
+      theStorm.addEventListener("click", logMyId);
+    </script>
+  </defs>
+
+  <path id="color" class="cls-1" d="M61.34,79.37c16-20.77,49.56-42.59,104.52-.9s-66.68,108.73-96.41,77S49.68,94.5,61.34,79.37Z" transform="translate(-30.5 -3.45)"/>
+
+  <path id="stormShape" d="M158.15,172.52a1.59,1.59,0,0,1,2.42,1.53,47.25,47.25,0,0,1-10.72,24.27,38.58,38.58,0,0,1-11.31,8.79,2.5,2.5,0,0,1-3.14-3.7,20.8,20.8,0,0,0,2.87-5.8c1.25-4,1-13.36.87-16.81a1.58,1.58,0,0,1,1.21-1.61C143.62,178.41,152.47,176.08,158.15,172.52Z" transform="translate(-30.5 -3.45)"/>
+
+  <path id="stormLine" class="cls-2" d="M94.83,46c-29,7.06-57,2.78-58.73-4.48S55.21,20.13,84.2,13.07,139.32,8.7,141.08,16,123.82,38.93,94.83,46ZM39,61.56C62.35,71,88.52,67,112.59,56.64M95.09,76c23.08-2.52,44.17-18.56,52.77-40.12M42.47,89c29.42,7.06,50.57,6.29,73.44-2.49m15.6-8.88A36.59,36.59,0,0,0,149.1,57.47M44.55,105.6c29.87,7.05,72.19,10.37,101.64-20.75m-72.6,41.49c40.24,2.07,74-13.87,87.12-37.34m-54.27,51.31c19.69-1.38,41-9.19,52.61-25.17m-30.53,38.67a40.72,40.72,0,0,0,27.77-14m-17.75,27.44A24.13,24.13,0,0,0,153,160.55M110.08,22.73C97,23,78,26.11,65.53,34" transform="translate(-30.5 -3.45)"/>
+</svg>

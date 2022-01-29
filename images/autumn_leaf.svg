@@ -1,0 +1,58 @@
+<svg id="autumn_leaf" class="icon" data-name="autumn leaf" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212.53 195.36">
+  <defs>
+    <style>
+
+      #autumn_leaf:hover {cursor: pointer; }
+      #autumn_leaf:hover {transform: scale(0.8); }
+
+      .cls-1 {
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+      }
+
+      .cls-1 {
+        fill: #EECBB9;
+        animation-name: glow-blue;
+        animation-delay: .5s;
+        animation-duration: 1.25s;
+      }
+
+      @keyframes glow-blue {
+        0% { fill: #EECBB9; }
+        100% { fill: #ABDADF; }
+      }
+
+      .cls-1 {
+        transform-origin: center;
+        transition: all 0.5s ease;
+      }
+
+      .cls-1{fill:#eecbb9;}
+
+      .cls-2 {fill:none;}
+
+      .cls-2{
+        stroke:#000;
+        stroke-linecap:round;
+        stroke-linejoin:round;
+        stroke-width:15px;
+      }
+
+    </style>
+    <script>
+      let theLeaf = document.querySelector("#autumn_leaf");
+
+      function logMyId() {
+        console.log("clicked on the object tag:", this.id);
+      }
+
+      theLeaf.addEventListener("click", logMyId);
+    </script>
+  </defs>
+
+  <path id="color" class="cls-1" d="M38.07,69.05C61,39.8,109,9.06,187.74,67.78S92.26,221,49.68,176.28,21.37,90.36,38.07,69.05Z" transform="translate(-1.44 -10.16)"/>
+
+  <path id="leaf" class="cls-2" d="M74.53,145s-47.71,5.61-65.59-44c0,0,24.6,9,44.26-.83,0,0-38-44.2,9.6-82.5,0,0-6.12,39.49,34.58,47.49,0,0,17.1-34.92,68.73-35.28M78.85,148.16s7.7,46.65,61.09,49.86c0,0-15.57-20.79-11.42-42.08,0,0,53.69,23.72,77.95-31.88,0,0-36.9,16.71-56-19.56,0,0,29.39-25.82,15.47-74.73M17.32,183.43C88,154.78,124.2,87.4,124.2,87.4m-36.8-1s-6.07,19.46,10,31.37m3,2.19c16.08,11.91,33.42.79,33.42.79" transform="translate(-1.44 -10.16)"/>
+</svg>

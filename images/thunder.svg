@@ -1,0 +1,64 @@
+<svg id="thunder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214.34 193.59">
+    <defs>
+      <style>
+
+        #thunder:hover {cursor: pointer; }
+        #thunder:hover {transform: scale(0.8); }
+
+        .cls-1 {
+          animation-duration: 1s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in-out;
+          animation-direction: alternate;
+        }
+
+        .cls-1 {
+          fill: #cdebd2;
+          animation-name: glow-red;
+          animation-delay: .5s;
+          animation-duration: 1.25s;
+        }
+
+        @keyframes glow-red {
+          0% { fill: #cdebd2; }
+          100% { fill: #EECBB9; }
+        }
+
+        .cls-1 {
+          transform-origin: center;
+          transition: all 0.5s ease;
+        }
+
+        .cls-1{fill:#cdebd2;}
+
+        .cls-2{
+          fill:none;
+          stroke-miterlimit:10;
+        }
+
+        .cls-2,.cls-3{
+          stroke:#000;
+          stroke-linecap:round;
+          stroke-width:15px;
+        }
+
+        .cls-3{fill:#fff;stroke-linejoin:round;}
+
+      </style>
+      <script>
+        let theThunder = document.querySelector("#thunder");
+
+        function logMyId() {
+          console.log("clicked on the object tag:", this.id);
+        }
+
+        theThunder.addEventListener("click", logMyId);
+      </script>
+    </defs>
+    <path id="color" class="cls-1" d="M19.13,116.1c-1.61,23-.69,70.62,79,66.25s100.4-49.18,98.22-78.66-41.43-60-75.29-38.18-49.14,3.27-67.7,7.64S19.85,105.93,19.13,116.1Z" transform="translate(-0.68 -7.96)"/>
+
+    <path id="cloud" class="cls-2" d="M8.39,143.57c-1.1-11.68,1.45-28.79,25.45-29.94,0,0-4.66-25.14,15.62-39.15S93.41,75,93.41,75s29-30.06,60.93-16c36.66,16.14,30.34,50.75,30.34,50.75s22.85-2.56,22.85,21.93c0,13.56-10.59,19.05-15.31,20.82a11.55,11.55,0,0,1-4,.73l-168,1.08A11.83,11.83,0,0,1,8.39,143.57Z" transform="translate(-0.68 -7.96)"/>
+
+    <path id="light" class="cls-3" d="M99.19,98.36S78.66,134,78.66,134l28.84,6.11s0,0,0,0L40.56,194.05s0,0,0,0L68,148.42,51,135S99.19,98.36,99.19,98.36Z" transform="translate(-0.68 -7.96)"/>
+
+    <path id="light-2" data-name="light" class="cls-3" d="M180.49,15.46S164,51.65,164,51.65l29.26,2.75s0,0,0,0l-60.52,58.65s0,0,0,0L155,66.59l-18.33-11Z" transform="translate(-0.68 -7.96)"/></svg>
