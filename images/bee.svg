@@ -46,6 +46,15 @@
 
       .cls-5{stroke-width:10px;}
     </style>
+    <script>
+      let theBee = document.querySelector("#bee");
+
+      function logMyId() {
+        console.log("clicked on the object tag:", this.id);
+      }
+
+      theBee.addEventListener("click", logMyId);
+    </script>
 
     <clipPath id="clip-path" transform="translate(-1.27 -0.9)">
       <path class="cls-1" d="M109.25,107s5.4,16,14.49,36.38c-31.48,31.89-83.56,69.54-104,53.49h0C3.64,176.41,41.48,124.16,73.41,92.7c20,8.9,35.68,14.18,35.68,14.18"/>

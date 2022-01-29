@@ -37,6 +37,15 @@
         stroke-width:15px;
       }
     </style>
+    <script>
+      let theTreeRound = document.querySelector("#treeRound");
+
+      function logMyId() {
+        console.log("clicked on the object tag:", this.id);
+      }
+
+      theTreeRound.addEventListener("click", logMyId);
+    </script>
   </defs>
 
   <path id="color" class="cls-1" d="M37,101.71c-1.34,19-.58,58.42,65.37,54.81s83.06-40.68,81.26-65.08-34.28-49.65-62.29-31.59-40.65,2.71-56,6.33S37.62,93.3,37,101.71Z" transform="translate(-7.47 -0.9)"/>

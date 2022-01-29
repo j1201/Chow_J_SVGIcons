@@ -41,6 +41,15 @@
       .cls-3{stroke-linejoin:round;}
 
     </style>
+    <script>
+      let theCicada = document.querySelector("#cicada");
+
+      function logMyId() {
+        console.log("clicked on the object tag:", this.id);
+      }
+
+      theCicada.addEventListener("click", logMyId);
+    </script>
   </defs>
 
   <path id="color" class="cls-1" d="M43.12,77.61c20-26,62-53.24,130.66-1.13S90.43,212.42,53.26,172.77,28.54,96.52,43.12,77.61Z" transform="translate(-0.68 -23.93)"/><path id="body" d="M138.12,145.24c-8.48,29.66-27.18,34.5-29.94,34.5-4.06,0-22-4.9-30.09-35a290.51,290.51,0,0,0,29.77-35.61A291.46,291.46,0,0,0,138.12,145.24Z" transform="translate(-0.68 -23.93)"/>

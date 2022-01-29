@@ -39,6 +39,15 @@
       }
 
     </style>
+    <script>
+      let theFire = document.querySelector("#fire");
+
+      function logMyId() {
+        console.log("clicked on the object tag:", this.id);
+      }
+
+      theFire.addEventListener("click", logMyId);
+    </script>
   </defs>
 
   <path id="color" class="cls-1" d="M22.15,101.45c-1.63,23.21-.71,71.22,79.69,66.82s101.27-49.6,99.06-79.34S159.12,28.39,125,50.42s-49.56,3.3-68.28,7.71S22.87,91.19,22.15,101.45Z" transform="translate(-20.33 -0.91)"/>

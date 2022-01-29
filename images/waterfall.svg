@@ -37,6 +37,15 @@
         stroke-miterlimit:10;
         stroke-width:15px;}
       </style>
+      <script>
+        let theWaterfall = document.querySelector("#waterfall");
+
+        function logMyId() {
+          console.log("clicked on the object tag:", this.id);
+        }
+
+        theWaterfall.addEventListener("click", logMyId);
+      </script>
     </defs>
 
     <path id="color" class="cls-1" d="M181.13,125c-5.3,23.76-17.29,53.2-59.55,41.64-29-7.94-56.3,44-90.43-2.41-15.43-21,10.6-112.34,76.65-107.12C157.4,61.06,194.77,63.89,181.13,125Z" transform="translate(-13.9 -1.03)"/>

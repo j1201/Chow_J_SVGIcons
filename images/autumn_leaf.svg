@@ -1,4 +1,4 @@
-<svg id="autumn_leaf" data-name="autumn leaf" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212.53 195.36">
+<svg id="autumn_leaf" class="icon" data-name="autumn leaf" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212.53 195.36">
   <defs>
     <style>
 
@@ -41,6 +41,15 @@
       }
 
     </style>
+    <script>
+      let theLeaf = document.querySelector("#autumn_leaf");
+
+      function logMyId() {
+        console.log("clicked on the object tag:", this.id);
+      }
+
+      theLeaf.addEventListener("click", logMyId);
+    </script>
   </defs>
 
   <path id="color" class="cls-1" d="M38.07,69.05C61,39.8,109,9.06,187.74,67.78S92.26,221,49.68,176.28,21.37,90.36,38.07,69.05Z" transform="translate(-1.44 -10.16)"/>

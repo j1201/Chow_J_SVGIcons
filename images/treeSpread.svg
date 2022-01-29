@@ -37,6 +37,15 @@
         stroke-width:15px;
       }
     </style>
+    <script>
+      let theTreeSpread = document.querySelector("#treeSpread");
+
+      function logMyId() {
+        console.log("clicked on the object tag:", this.id);
+      }
+
+      theTreeSpread.addEventListener("click", logMyId);
+    </script>
   </defs>
 
   <path id="color" class="cls-1" d="M198.07,111.53c-6.34,28.45-20.7,63.69-71.3,49.86C92,151.87,59.37,214.06,18.51,158.5,0,133.38,31.2,24,110.28,30.25,169.66,34.94,214.4,38.34,198.07,111.53Z" transform="translate(-10.18 -0.88)"/>

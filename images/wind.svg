@@ -38,6 +38,15 @@
         stroke-width:15px;
       }
     </style>
+    <script>
+      let theWind = document.querySelector("#wind");
+
+      function logMyId() {
+        console.log("clicked on the object tag:", this.id);
+      }
+
+      theWind.addEventListener("click", logMyId);
+    </script>
   </defs>
 
   <path id="color" class="cls-1" d="M1.69,103.06c-1.88,26.75-.81,82.09,91.86,77s116.72-57.16,114.18-91.44-48.17-69.78-87.52-44.39S63.08,48.05,41.5,53.13,2.52,91.24,1.69,103.06Z" transform="translate(-0.68 -24.34)"/>

@@ -36,6 +36,15 @@
         stroke-miterlimit:10;
         stroke-width:15px;}
       </style>
+      <script>
+        let theWave = document.querySelector("#wave");
+
+        function logMyId() {
+          console.log("clicked on the object tag:", this.id);
+        }
+
+        theWave.addEventListener("click", logMyId);
+      </script>
     </defs>
 
     <path id="color" class="cls-1" d="M11.7,109.13c-1.85,26.28-.8,80.65,90.24,75.66S216.61,128.63,214.11,95s-47.32-68.55-86-43.61S72,55.09,50.81,60.08,12.51,97.52,11.7,109.13Z" transform="translate(-0.68 -22.19)"/>

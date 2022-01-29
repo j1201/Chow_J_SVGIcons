@@ -38,6 +38,15 @@
         stroke-width:15px;
       }
     </style>
+    <script>
+      let theWaterdrop = document.querySelector("#waterdrop");
+
+      function logMyId() {
+        console.log("clicked on the object tag:", this.id);
+      }
+
+      theWaterdrop.addEventListener("click", logMyId);
+    </script>
   </defs>
 
   <path id="color" class="cls-1" d="M47.29,92.34c21-27.22,64.94-55.81,137-1.19S96.89,233.65,57.92,192.09,32,112.16,47.29,92.34Z" transform="translate(-4.62 -0.79)"/>

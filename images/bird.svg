@@ -40,6 +40,15 @@
         }
 
       </style>
+      <script>
+        let theBird = document.querySelector("#bird");
+
+        function logMyId() {
+          console.log("clicked on the object tag:", this.id);
+        }
+
+        theBird.addEventListener("click", logMyId);
+      </script>
     </defs>
 
     <path id="color" class="cls-1" d="M211.37,119.86c-6.15,27.57-20.07,61.73-69.11,48.32-33.7-9.22-65.33,51-104.93-2.8C19.43,141,49.63,35,126.27,41.07,183.83,45.62,227.2,48.91,211.37,119.86Z" transform="translate(-1.06 -1.88)"/>

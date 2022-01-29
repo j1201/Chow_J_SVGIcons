@@ -38,6 +38,15 @@
         stroke-width:11px;
       }
     </style>
+    <script>
+      let theStorm = document.querySelector("#storm");
+
+      function logMyId() {
+        console.log("clicked on the object tag:", this.id);
+      }
+
+      theStorm.addEventListener("click", logMyId);
+    </script>
   </defs>
 
   <path id="color" class="cls-1" d="M61.34,79.37c16-20.77,49.56-42.59,104.52-.9s-66.68,108.73-96.41,77S49.68,94.5,61.34,79.37Z" transform="translate(-30.5 -3.45)"/>

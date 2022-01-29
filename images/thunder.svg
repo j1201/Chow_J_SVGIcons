@@ -45,6 +45,15 @@
         .cls-3{fill:#fff;stroke-linejoin:round;}
 
       </style>
+      <script>
+        let theThunder = document.querySelector("#thunder");
+
+        function logMyId() {
+          console.log("clicked on the object tag:", this.id);
+        }
+
+        theThunder.addEventListener("click", logMyId);
+      </script>
     </defs>
     <path id="color" class="cls-1" d="M19.13,116.1c-1.61,23-.69,70.62,79,66.25s100.4-49.18,98.22-78.66-41.43-60-75.29-38.18-49.14,3.27-67.7,7.64S19.85,105.93,19.13,116.1Z" transform="translate(-0.68 -7.96)"/>
 

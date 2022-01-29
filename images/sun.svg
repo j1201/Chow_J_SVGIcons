@@ -38,6 +38,15 @@
         stroke-width:15px;
       }
     </style>
+    <script>
+      let theSun = document.querySelector("#sun");
+
+      function logMyId() {
+        console.log("clicked on the object tag:", this.id);
+      }
+
+      theSun.addEventListener("click", logMyId);
+    </script>
   </defs>
 
   <path id="color" class="cls-1" d="M44.69,104.65c7.55-28.39,32.77-65.47,107.62-46.19S130.49,199.71,86,179.81,39.19,125.33,44.69,104.65Z" transform="translate(-1.16 -0.7)"/>
