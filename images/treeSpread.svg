@@ -1,0 +1,45 @@
+<svg id="treeSpread" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196.33 213.98">
+  <defs>
+    <style>
+      #treeSpread:hover {cursor: pointer; }
+      #treeSpread:hover {transform: scale(0.8); }
+
+      .cls-1 {
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+      }
+
+      .cls-1 {
+        fill: #cdebd2;
+        animation-name: glow-red;
+        animation-delay: .5s;
+        animation-duration: 1.25s;
+      }
+
+      @keyframes glow-red {
+        0% { fill: #cdebd2; }
+        100% { fill: #EECBB9; }
+      }
+
+      .cls-1 {
+        transform-origin: center;
+        transition: all 0.5s ease;
+      }
+      .cls-1{fill:#abdadf;}
+
+      .cls-2{
+        fill:none;
+        stroke:#000;
+        stroke-linecap:round;
+        stroke-miterlimit:10;
+        stroke-width:15px;
+      }
+    </style>
+  </defs>
+
+  <path id="color" class="cls-1" d="M198.07,111.53c-6.34,28.45-20.7,63.69-71.3,49.86C92,151.87,59.37,214.06,18.51,158.5,0,133.38,31.2,24,110.28,30.25,169.66,34.94,214.4,38.34,198.07,111.53Z" transform="translate(-10.18 -0.88)"/>
+
+  <path id="tree" class="cls-2" d="M159.12,115.24c-15.5-1.17-28.18-10.43-32.94-22.64,20.49-9,34.21-25.71,34.92-43,1,0,1.94,0,2.92.12,20.63,1.54,36.26,17.46,34.91,35.55S179.75,116.78,159.12,115.24ZM43,66.82a32.69,32.69,0,0,1-.77-6.34C28.63,65.66,18.81,77.11,17.77,91.06c-1.52,20.19,15.93,37.95,39,39.67C79.09,132.41,98.49,118.34,101,99,72.62,101.55,47.71,88.32,43,66.82ZM161.1,49.61a33.75,33.75,0,0,0-.75-8.7C155,16.84,124.44,3.13,92,10.28,62.46,16.81,41.59,38.45,42.2,60.48A32.69,32.69,0,0,0,43,66.82c4.74,21.5,29.65,34.73,58,32.22a82.06,82.06,0,0,0,10.31-1.59,79.74,79.74,0,0,0,14.9-4.85C146.67,83.61,160.39,66.89,161.1,49.61ZM113,98.82v104.5m-45.4-72.88,42.22,42.22M141,112.3l-26.9,34.11m-23.35,61H135.3" transform="translate(-10.18 -0.88)"/>
+</svg>

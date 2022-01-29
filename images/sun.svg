@@ -1,0 +1,46 @@
+<svg id="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 213.87 213.87">
+  <defs>
+    <style>
+      #sun:hover {cursor: pointer; }
+      #sun:hover {transform: scale(0.8); }
+
+      .cls-1 {
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+      }
+
+      .cls-1 {
+        fill: #EECBB9;
+        animation-name: glow-blue;
+        animation-delay: .5s;
+        animation-duration: 1.25s;
+      }
+
+      @keyframes glow-blue {
+        0% { fill: #EECBB9; }
+        100% { fill: #ABDADF; }
+      }
+
+      .cls-1 {
+        transform-origin: center;
+        transition: all 0.5s ease;
+      }
+
+      .cls-1{fill:#eecbb9;}
+
+      .cls-2{
+        fill:none;
+        stroke:#000;
+        stroke-linecap:round;
+        stroke-miterlimit:10;
+        stroke-width:15px;
+      }
+    </style>
+  </defs>
+
+  <path id="color" class="cls-1" d="M44.69,104.65c7.55-28.39,32.77-65.47,107.62-46.19S130.49,199.71,86,179.81,39.19,125.33,44.69,104.65Z" transform="translate(-1.16 -0.7)"/>
+
+  <path id="sun-2" data-name="sun" class="cls-2" d="M155,107.88A46.91,46.91,0,1,1,108.09,61,46.9,46.9,0,0,1,155,107.88ZM108.09,8.2V40.53m0,134.2v32.34M8.66,107.63H41m134.21,0h32.33M37.78,177.94l22.87-22.86m94.89-94.9,22.87-22.86m0,140.62-22.87-22.86M60.65,60.18,37.78,37.32" transform="translate(-1.16 -0.7)"/>
+</svg>

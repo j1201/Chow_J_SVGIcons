@@ -1,0 +1,46 @@
+<svg id="fire" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180.73 213.19">
+  <defs>
+    <style>
+      #fire:hover {cursor: pointer; }
+      #fire:hover {transform: scale(0.8); }
+
+      .cls-1 {
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+      }
+
+      .cls-1 {
+        fill: #ABDADF;
+	      animation-name: glow-green;
+	      animation-delay: .5s;
+	      animation-duration: 1.25s;
+      }
+
+      @keyframes glow-green {
+	      0% { fill: #ABDADF; }
+	      100% { fill: #CDEBD2; }
+      }
+
+      .cls-1 {
+        transform-origin: center;
+        transition: all 0.5s ease;
+      }
+
+      .cls-1{fill:#cdebd2;}
+
+      .cls-2{
+        fill:none;
+        stroke:#000;
+        stroke-linecap:round;
+        stroke-linejoin:round;
+        stroke-width:15px;
+      }
+
+    </style>
+  </defs>
+
+  <path id="color" class="cls-1" d="M22.15,101.45c-1.63,23.21-.71,71.22,79.69,66.82s101.27-49.6,99.06-79.34S159.12,28.39,125,50.42s-49.56,3.3-68.28,7.71S22.87,91.19,22.15,101.45Z" transform="translate(-20.33 -0.91)"/>
+
+  <path id="fire-2" data-name="fire" class="cls-2" d="M118.89,8.41c-10.19,17.34.81,34.67,8.23,42.1,19.21,19.21,17.49,48.88,17.49,48.88C165,91.66,159.36,58,159.36,58s35.09,23.17,13.33,70.2c-21.52,46.52-64.34,42.22-65.28,42.12-.92.1-43.74,4.4-65.26-42.12C20.38,81.14,55.48,58,55.48,58S49.87,91.66,70.23,99.39C70.23,99.39,62.74,49.12,118.89,8.41ZM27.83,173.11,187.77,206.6m-159.94,0,159.94-33.49" transform="translate(-20.33 -0.91)"/></svg>

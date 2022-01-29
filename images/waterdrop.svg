@@ -1,0 +1,47 @@
+<svg id="waterdrop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 206.47 214.08">
+  <defs>
+    <style>
+      #waterdrop:hover {cursor: pointer; }
+      #waterdrop:hover {transform: scale(0.8); }
+
+      .cls-1 {
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+      }
+
+      .cls-1 {
+        fill: #EECBB9;
+        animation-name: glow-blue;
+        animation-delay: .5s;
+        animation-duration: 1.25s;
+      }
+
+      @keyframes glow-blue {
+        0% { fill: #EECBB9; }
+        100% { fill: #ABDADF; }
+      }
+
+      .cls-1 {
+        transform-origin: center;
+        transition: all 0.5s ease;
+      }
+
+      .cls-1{fill:#eecbb9;}
+
+      .cls-2{
+        fill:none;
+        stroke:#000;
+        stroke-linecap:round;
+        stroke-miterlimit:10;
+        stroke-width:15px;
+      }
+    </style>
+  </defs>
+
+  <path id="color" class="cls-1" d="M47.29,92.34c21-27.22,64.94-55.81,137-1.19S96.89,233.65,57.92,192.09,32,112.16,47.29,92.34Z" transform="translate(-4.62 -0.79)"/>
+
+  <path id="waterdrop-2" data-name="waterdrop" class="cls-2" d="M157.62,100.74c0,63.68-47.72,65.88-50.52,65.88-3,0-50.52-2.2-50.52-65.88S107.1,9.34,107.1,9.34,157.62,37.07,157.62,100.74ZM45.22,148.56c1,19,19.41,33,47,36.06m30.44,1.24c32.64-4.3,54.48-26,54.48-46.79M27.61,116.43c-9.8,9.23-15.49,20.26-15.49,32.1,0,16.25,10.72,31,28.05,41.61m32.17,13a149.25,149.25,0,0,0,35.52,4.19,153.2,153.2,0,0,0,26.31-2.25M155,199.74c29-10.11,48.56-29.26,48.56-51.21,0-15.6-9.88-29.78-26-40.31M76.12,112.87s-1,17.53,20,32.56" transform="translate(-4.62 -0.79)"/>
+
+</svg>

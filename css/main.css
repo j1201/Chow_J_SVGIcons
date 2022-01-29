@@ -1,25 +1,3 @@
-/* font-family: new-spirit,serif;
-font-weight: 700;
-font-style: normal;
-
-font-family: owners,sans-serif;
-font-weight: 900;
-font-style: normal;
-
-font-family: owners-xwide,sans-serif;
-font-weight: 700;
-font-style: normal;
-
-font-family: owners-wide,sans-serif;
-font-weight: 700;
-font-style: normal;
-
-font-family: owners-xxwide,sans-serif;
-font-weight: 400;
-font-style: normal; */
-
-
-
 * {
   border: none;
   padding:0;
@@ -76,20 +54,37 @@ body {
   align-self: center;
 }
 
-#svg-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: auto;
-  grid-gap: 20px;
+body {
+    background-color: #FFFEF2;
 }
 
-.container { display: flex; }
+#svg-grid {
+  margin: 6em;
+}
 
+#svg-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 5em 2em;
+  justify-items: center;
+}
 
-/* descendant selector */
-.container img { width: 100%;}
+.container object {
+  width: 200px;
+  height: 200px;
+}
 
-/* interactive SVG rules */
-.cls-2:hover {
-  fill: orange;
+.bottom {
+  margin-top: 1em;
+}
+
+.bottom p {
+  text-align: center;
+  font-family: owners-xwide,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: black;
 }

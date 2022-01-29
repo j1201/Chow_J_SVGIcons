@@ -1,0 +1,54 @@
+<svg id="cicada" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214.34 167.86">
+  <defs>
+    <style>
+      #cicada:hover {cursor: pointer; }
+      #cicada:hover {transform: scale(0.8); }
+
+      .cls-1 {
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+      }
+
+      .cls-1 {
+        fill: #EECBB9;
+        animation-name: glow-blue;
+        animation-delay: .5s;
+        animation-duration: 1.25s;
+      }
+
+      @keyframes glow-blue {
+        0% { fill: #EECBB9; }
+        100% { fill: #ABDADF; }
+      }
+
+      .cls-1 {
+        transform-origin: center;
+        transition: all 0.5s ease;
+      }
+
+      .cls-1{fill:#eecbb9;}
+
+      .cls-2,.cls-3{
+        fill:none;
+        stroke:#000;
+        stroke-linecap:round;
+        stroke-width:15px;}
+
+      .cls-2{stroke-miterlimit:10;}
+
+      .cls-3{stroke-linejoin:round;}
+
+    </style>
+  </defs>
+
+  <path id="color" class="cls-1" d="M43.12,77.61c20-26,62-53.24,130.66-1.13S90.43,212.42,53.26,172.77,28.54,96.52,43.12,77.61Z" transform="translate(-0.68 -23.93)"/><path id="body" d="M138.12,145.24c-8.48,29.66-27.18,34.5-29.94,34.5-4.06,0-22-4.9-30.09-35a290.51,290.51,0,0,0,29.77-35.61A291.46,291.46,0,0,0,138.12,145.24Z" transform="translate(-0.68 -23.93)"/>
+
+  <path id="left_wing" data-name="left wing" class="cls-2" d="M107.86,109.12a290.51,290.51,0,0,1-29.77,35.61c-13.86,14.27-27.56,25.85-36,30.8-19.73,11.54-26.79,9.88-31.47,5.21h0C6.67,173.9,7.11,167,15.05,145.12c7.59-20.94,39.38-71.4,69.45-90.59.8-.51,1.61-1,2.4-1.47a76.83,76.83,0,0,1,8.95-4.52,39.43,39.43,0,0,1,12-3.25" transform="translate(-0.68 -23.93)"/>
+
+  <path id="right_wing" data-name="right wing" class="cls-2" d="M95.85,48.54c1.17-1.18,4.73-3.89,12-3.25a39.79,39.79,0,0,1,12,3.25,77.56,77.56,0,0,1,8.94,4.52q1.86,1.09,3.73,2.35c29.67,19.8,60.65,69.08,68.12,89.71,7.94,21.88,8.38,28.78,4.45,35.61h0c-4.67,4.67-11.73,6.33-31.47-5.21-8.34-4.88-21.8-16.25-35.5-30.29a291.46,291.46,0,0,1-30.26-36.12" transform="translate(-0.68 -23.93)"/>
+
+  <path id="antennae" class="cls-2" d="M88.78,31.86l11.61,14.31m25.35-14.74-12,14.74" transform="translate(-0.68 -23.93)"/><path id="center_body" data-name="center body" class="cls-3" d="M107.86,109.12S74.48,107.76,74.48,63.8c0,0,11.1,18.68,33.36,18.68,22.75,0,34.77-18.16,34.77-18.16,0,44-32.87,44.8-32.87,44.8" transform="translate(-0.68 -23.93)"/>
+
+</svg>
